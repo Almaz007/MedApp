@@ -1,0 +1,17 @@
+.btn {
+    width: 100%;
+}
+.title {
+    color: var(--desc-clr);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+}
+.receptions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}

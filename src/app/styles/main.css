@@ -1,0 +1,21 @@
+@import url("./reset.css");
+@import url("../font/stylesheet.css");
+:root {
+    --white-clr: #fff;
+    --background-clr: #f3f5f9;
+    --border-clr: #ebebeb;
+    --disabled-clr: #9b9b9b;
+    --desc-clr: #6b6b70;
+    --black-clr: #48494e;
+
+    --primary-clr-90: #4b60d7;
+    --primary-clr-50: #99a7eb;
+    --primary-clr-10: #e8edff;
+
+    --tran-03: all 0.3s ease;
+}
+
+body {
+    font-family: "Euclid Circular A", sans-serif;
+    background-color: var(--background-clr);
+}

@@ -1,0 +1,65 @@
+.title {
+    color: var(--desc-clr);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+}
+.rows:first-child {
+    margin-bottom: 4px;
+}
+.rows {
+    display: flex;
+    gap: 4px;
+}
+.icon {
+    padding: 8px;
+    background-color: var(--background-clr);
+    width: max-content;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+.icon > svg {
+    display: block;
+}
+.cell {
+    cursor: pointer;
+    padding: 12px;
+    background: var(--white-clr);
+    border-radius: 12px;
+    transition: var(--tran-03);
+}
+.cell:hover {
+    background-color: var(--primary-clr-90);
+}
+
+.desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name {
+    transition: var(--tran-03);
+    /* Body/Medium */
+    color: var(--black-clr);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0%;
+}
+.cell:hover .name {
+    color: var(--white-clr);
+}
+/* Стили для отдельных ячеек (опционально) */
+
+.cell-1 {
+    width: 204px;
+}
+.cell-2 {
+    width: 120px;
+}
+.cell-3,
+.cell-4 {
+    width: 162px;
+}

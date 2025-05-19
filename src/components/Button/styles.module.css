@@ -1,0 +1,13 @@
+.button {
+    padding: 10px 22px;
+    color: var(--white-clr);
+    background-color: var(--primary-clr-90);
+    border-radius: 100px;
+    transition: var(--tran-03);
+    border: 1px solid var(--primary-clr-90);
+}
+
+.button:hover {
+    background-color: var(--white-clr);
+    color: var(--primary-clr-90);
+}

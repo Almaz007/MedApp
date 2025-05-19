@@ -1,0 +1,19 @@
+.section {
+    margin-bottom: 32px;
+}
+.section:last-child {
+    margin-bottom: 0px;
+}
+.cards {
+    border-radius: 12px;
+    overflow: hidden;
+}
+.title {
+    /* H1 */
+    color: var(--desc-clr);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+}

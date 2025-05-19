@@ -1,0 +1,9 @@
+.dot {
+    border-radius: 50%;
+    background-color: var(--primary-clr-90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-clr);
+    font-size: 10px;
+}

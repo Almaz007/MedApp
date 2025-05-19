@@ -1,0 +1,18 @@
+.icon {
+    position: relative;
+}
+.icon svg {
+    display: block;
+}
+.total-messages {
+    position: absolute;
+    right: 0;
+    top: -12%;
+}
+.notification {
+    transition: var(--tran-03);
+    cursor: pointer;
+}
+.notification:hover > path {
+    stroke: var(--primary-clr-90);
+}
