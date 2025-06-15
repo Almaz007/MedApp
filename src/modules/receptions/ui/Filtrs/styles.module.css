@@ -1,0 +1,43 @@
+.filtrs {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.info-row {
+	cursor: pointer;
+	transition: var(--tran-03);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--white-clr);
+	padding: 14px 16px;
+	border-radius: 12px;
+}
+
+.name {
+	color: var(--black-clr);
+	transition: var(--tran-03);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.2;
+}
+.info-row:hover .name {
+	color: var(--primary-clr-90);
+}
+.btn {
+	padding: 0px 9px;
+}
+.btn svg {
+	display: block;
+	transition: var(--tran-03);
+}
+.info-row:hover .svg-icon {
+	stroke: var(--primary-clr-90);
+}
+.button-block {
+	margin-top: 30px;
+}
+.applay-btn {
+	width: 100%;
+}

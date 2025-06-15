@@ -19,3 +19,12 @@ body {
 	font-family: 'Euclid Circular A', sans-serif;
 	background-color: var(--background-clr);
 }
+.container {
+	max-width: 360px;
+	margin: 0 auto;
+	padding: 10px 16px 14px;
+	/* height: 100svh; */
+}
+/* #root {
+	height: 100svh;
+} */

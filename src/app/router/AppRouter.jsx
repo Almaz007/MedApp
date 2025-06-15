@@ -4,12 +4,14 @@ import { HomePage } from '../../pages/Home/HomePage';
 import { MorePage } from '../../pages/More/MorePage';
 import { MedСardPage } from '../../pages/MedСard/MedСardPage';
 import { AuthPage } from '../../pages/Auth/AuthPage';
+import { ReceptionsPage } from '../../pages/ReceptionsPage/ReceptionPage';
 
 function AppRouter() {
 	return (
 		<Routes>
-			<Route path='auth' element={<AuthPage />} />
-			<Route path='/' element={<Layout />}>
+			<Route index element={<AuthPage />} />
+			<Route path='/receptions' element={<ReceptionsPage />} />
+			<Route path='/main' element={<Layout />}>
 				<Route index element={<HomePage />} />
 				<Route path='medicalCard' element={<MedСardPage />} />
 				<Route path='more' element={<MorePage />} />

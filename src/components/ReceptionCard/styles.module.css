@@ -1,0 +1,38 @@
+.card {
+	display: flex;
+	gap: 8px;
+	padding: 12px 16px;
+	background-color: var(--white-clr);
+	border-radius: 12px;
+}
+.date-time {
+	min-width: 89px;
+}
+.vertical-line {
+	width: 1px;
+	background-color: var(--border-clr);
+}
+.time,
+.doctor-profession {
+	color: var(--black-clr);
+	font-size: 16px;
+	line-height: 1.2;
+	letter-spacing: 0%;
+	margin-bottom: 4px;
+}
+
+.time {
+	font-weight: 600;
+}
+.doctor-profession {
+	font-weight: 500;
+}
+.date,
+.сlient-name {
+	/* Caption */
+	color: var(--desc-clr);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0%;
+}

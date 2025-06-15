@@ -1,0 +1,15 @@
+.prev-button {
+	padding: 12px;
+	display: inline-block;
+	cursor: pointer;
+}
+.prev-button svg {
+	display: block;
+}
+.svg-icon {
+	transition: var(--tran-03);
+}
+.prev-button:hover .svg-icon path {
+	fill: var(--primary-clr-90);
+	stroke: var(--primary-clr-90);
+}

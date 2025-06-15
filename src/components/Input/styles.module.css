@@ -1,0 +1,43 @@
+.input-wrapper {
+	position: relative;
+	width: 100%;
+}
+
+.input {
+	width: 100%;
+	padding: 10px 12px;
+	padding-right: 40px; /* Оставляем место для кнопки */
+	color: var(--black-clr);
+	border: 1px solid var(--border-clr);
+	border-radius: 8px;
+	background: var(--white-clr);
+	transition: var(--tran-03);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+.input::placeholder {
+	color: var(--desc-clr);
+}
+
+.input:focus {
+	border: 1px solid var(--primary-clr-50);
+}
+
+.toggle-button {
+	position: absolute;
+	right: 12px;
+	top: 50%;
+	transform: translateY(-50%);
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+	color: var(--desc-clr);
+	transition: var(--tran-03);
+}
+
+.toggle-button:hover {
+	color: var(--black-clr);
+}
