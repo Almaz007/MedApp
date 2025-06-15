@@ -11,8 +11,8 @@ function AppRouter() {
 		<Routes>
 			<Route index element={<AuthPage />} />
 			<Route path='/receptions' element={<ReceptionsPage />} />
-			<Route path='/main' element={<Layout />}>
-				<Route index element={<HomePage />} />
+			<Route element={<Layout />}>
+				<Route path='main' element={<HomePage />} />
 				<Route path='medicalCard' element={<MedСardPage />} />
 				<Route path='more' element={<MorePage />} />
 			</Route>

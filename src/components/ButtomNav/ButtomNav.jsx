@@ -8,7 +8,7 @@ export const ButtonNav = () => {
 	return (
 		<div className={styles['button-nav']}>
 			<NavLink
-				to='/main'
+				to='main'
 				className={({ isActive }) =>
 					isActive ? `${styles.link} ${styles.isActive}` : styles.link
 				}
@@ -18,7 +18,7 @@ export const ButtonNav = () => {
 			</NavLink>
 
 			<NavLink
-				to='/main/medicalCard'
+				to='medicalCard'
 				className={({ isActive }) =>
 					isActive ? `${styles.link} ${styles.isActive}` : styles.link
 				}
@@ -28,7 +28,7 @@ export const ButtonNav = () => {
 			</NavLink>
 
 			<NavLink
-				to='/main/more'
+				to='more'
 				className={({ isActive }) =>
 					isActive ? `${styles.link} ${styles.isActive}` : styles.link
 				}

@@ -155,7 +155,7 @@ export const Receptions = () => {
 								<PrevBtn
 									onClick={
 										stage === 0
-											? () => navigate('/main/medicalCard')
+											? () => navigate('/medicalCard')
 											: () => setStage(prev => prev - 1)
 									}
 								/>
